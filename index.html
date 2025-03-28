@@ -41,7 +41,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[21.65359002461222,117.98762057306394],[25.49668314378645,123.80993700479866]]);
+        }).fitBounds([[21.711266777585603,117.83811635811972],[25.55435989675983,123.66043278985444]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -152,7 +152,7 @@
                         <td class="visible-with-data" id="總人口數">' + (feature.properties['總人口數'] !== null ? autolinker.link(String(feature.properties['總人口數']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td class="visible-with-data" id="部落描述" colspan="2"><strong>部落描述</strong><br />' + (feature.properties['部落描述'] !== null ? autolinker.link(String(feature.properties['部落描述']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>部落描述</strong><br />' + (feature.properties['部落描述'] !== null ? autolinker.link(String(feature.properties['部落描述']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -176,7 +176,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(120,161,223,1.0)',
+                fillColor: 'rgba(206,152,36,1.0)',
                 interactive: true,
             }
                     break;
@@ -192,7 +192,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(150,203,94,1.0)',
+                fillColor: 'rgba(108,230,63,1.0)',
                 interactive: true,
             }
                     break;
@@ -208,7 +208,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(239,166,111,1.0)',
+                fillColor: 'rgba(255,217,33,1.0)',
                 interactive: true,
             }
                     break;
@@ -224,7 +224,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(35,212,191,1.0)',
+                fillColor: 'rgba(228,77,190,1.0)',
                 interactive: true,
             }
                     break;
@@ -240,7 +240,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(35,44,204,1.0)',
+                fillColor: 'rgba(63,150,237,1.0)',
                 interactive: true,
             }
                     break;
@@ -256,7 +256,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(58,208,28,1.0)',
+                fillColor: 'rgba(202,133,99,1.0)',
                 interactive: true,
             }
                     break;
@@ -272,7 +272,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(246,220,9,1.0)',
+                fillColor: 'rgba(227,32,39,1.0)',
                 interactive: true,
             }
                     break;
@@ -288,7 +288,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(209,27,79,1.0)',
+                fillColor: 'rgba(31,120,180,1.0)',
                 interactive: true,
             }
                     break;
@@ -304,7 +304,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(17,216,123,1.0)',
+                fillColor: 'rgba(190,91,201,1.0)',
                 interactive: true,
             }
                     break;
@@ -320,7 +320,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(208,229,74,1.0)',
+                fillColor: 'rgba(87,222,98,1.0)',
                 interactive: true,
             }
                     break;
@@ -336,7 +336,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(165,64,219,1.0)',
+                fillColor: 'rgba(202,16,87,1.0)',
                 interactive: true,
             }
                     break;
@@ -352,7 +352,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(229,188,40,1.0)',
+                fillColor: 'rgba(171,219,94,1.0)',
                 interactive: true,
             }
                     break;
@@ -368,7 +368,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(128,93,211,1.0)',
+                fillColor: 'rgba(123,140,238,1.0)',
                 interactive: true,
             }
                     break;
@@ -384,7 +384,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(140,240,159,1.0)',
+                fillColor: 'rgba(227,232,84,1.0)',
                 interactive: true,
             }
                     break;
@@ -400,7 +400,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(202,74,202,1.0)',
+                fillColor: 'rgba(80,45,218,1.0)',
                 interactive: true,
             }
                     break;
@@ -416,7 +416,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(203,30,14,1.0)',
+                fillColor: 'rgba(106,211,230,1.0)',
                 interactive: true,
             }
                     break;
@@ -432,7 +432,7 @@
                 weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(18,166,215,1.0)',
+                fillColor: 'rgba(24,201,104,1.0)',
                 interactive: true,
             }
                     break;
@@ -481,16 +481,6 @@
             propertyName: '部落名稱'}));
         document.getElementsByClassName('search-button')[0].className +=
          ' fa fa-binoculars';
-        resetLabels([layer_IndigenousCommunities_3]);
-        map.on("zoomend", function(){
-            resetLabels([layer_IndigenousCommunities_3]);
-        });
-        map.on("layeradd", function(){
-            resetLabels([layer_IndigenousCommunities_3]);
-        });
-        map.on("layerremove", function(){
-            resetLabels([layer_IndigenousCommunities_3]);
-        });
         </script>
     </body>
 </html>
